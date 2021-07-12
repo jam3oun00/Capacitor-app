@@ -1,0 +1,10 @@
+{
+  "appId": "com.example.app",
+  "appName": "test",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "iosScheme": "nuxtmobile",
+    "androidScheme": "http"
+  }
+}

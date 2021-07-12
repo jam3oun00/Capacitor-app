@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "android": "nuxt generate && npx cap copy && npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^3.0.2",
+    "@capacitor/cli": "^3.0.2",
+    "@capacitor/core": "^3.0.2",
+    "@capacitor/ios": "^3.0.2",
+    "@nuxtjs/axios": "^5.13.6",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "vuetify": "^2.5.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.1"
+  }
+}
